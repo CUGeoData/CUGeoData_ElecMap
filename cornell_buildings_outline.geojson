@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"name": "Building Name", "id": "1", "streetAddress": "123 Campus Lane, Ithaca, NY"}, "geometry": {"type": "Polygon", "coordinates": [[[-76.482, 42.4483], [-76.4821, 42.4484], [-76.4819, 42.4485], [-76.4818, 42.4482], [-76.482, 42.4483]]]}}]}

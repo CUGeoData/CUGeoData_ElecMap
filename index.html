@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cornell Campus Map</title>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #map {
+      height: 100vh;
+    }
+
+    .slider-container {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60%;
+      z-index: 1;
+    }
+
+    input[type="range"] {
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="map"></div>
+  <div class="slider-container">
+    <input type="range" id="timeSlider" min="0" max="11" value="0" step="1">
+
+  </div>
+
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+  <script src="script.js?v=1.0.0"></script>
+
+</body>
+
+</html>

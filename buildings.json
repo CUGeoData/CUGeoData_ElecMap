@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "A-Lot Staff Parking",
+        "streetAddress": "140 Pleasant Grove Rd, Ithaca, NY 14850"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4767,
+          42.4584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "A. D. White Gardens",
+        "streetAddress": "121 Presidents Dr, Ithaca, NY 14850"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4819,
+          42.4478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "A. D. White House",
+        "streetAddress": "121 Presidents Dr, Ithaca, NY 14850"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4820,
+          42.4483
+        ]
+      }
+    }
+  ]
+}

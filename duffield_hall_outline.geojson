@@ -1,0 +1,40 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Duffield Hall",
+        "id": "1",
+        "streetAddress": "343 Campus Rd, Ithaca, NY 14850"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -10.4831,
+              10.4442
+            ],
+            [
+              -10.4821,
+              10.4442
+            ],
+            [
+              -77.4821,
+              43.4452
+            ],
+            [
+              -77.4831,
+              43.4452
+            ],
+            [
+              -77.4831,
+              43.4442
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
